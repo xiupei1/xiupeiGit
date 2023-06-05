@@ -14,10 +14,10 @@ function showOrDownload(base64String) {
         // this.showImage(base64String);
         return;
     }
-    var a1
+    var a11
     var fileType = fileHeader.slice(fileHeader.indexOf("/") + 1);
     if (fileType === 'pdf') {
-        //pdf预览
+        //pdf预览111
         this.showPdf(base64String);
         return;
     }
