@@ -1,7 +1,7 @@
 //<button onclick="showOrDownload('data:image/jpeg;base64,4RK0RXhpZgAATU0AKgAAAAgADAEAAAMAAAA')">下载图片</button>
 // <button onclick="showOrDownload('data:application/pdf;base64,4AAQSkZJRgABAQAA')">打开pdf</button>
 //原文链接：https://blog.csdn.net/weixin_43883951/article/details/128237805
-// genggai
+// genggaidd
 function showOrDownload(base64String) {
     //这里截取后的fileHeader是data:image/jpeg
     var fileHeader = base64String.slice(0, base64String.indexOf(";base64"));
