@@ -14,7 +14,7 @@ function showOrDownload(base64String) {
         // this.showImage(base64String);
         return;
     }
-    var a
+    var a1
     var fileType = fileHeader.slice(fileHeader.indexOf("/") + 1);
     if (fileType === 'pdf') {
         //pdf预览
