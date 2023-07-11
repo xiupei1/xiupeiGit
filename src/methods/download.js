@@ -57,7 +57,7 @@ function base64StringToDownload(base64String) {
     const id = Number(Math.random().toString().substr(3, 5) + Date.now()).toString(36);
     let blob = this.base64StringToBlob(base64String);
     let url = URL.createObjectURL(blob)
-    let save_link = document.createElementNS("http://www.w3.org/1999/xhtml", "a")
+    let save_link = document.createElementNS("http://www.w3.org/1999/xhtml", "a")//createElementNS ie用不了
     save_link.href = url
     save_link.download = "附件" + id;
     save_link.click();
