@@ -140,6 +140,7 @@ export class Watermark {
             this.watermark = null;
             this.hasWatermark = false; // 防止重复创建水印
             this.create();
+            console.log('water')
             return;
           }
         }
