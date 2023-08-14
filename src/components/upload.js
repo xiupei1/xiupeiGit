@@ -51,4 +51,8 @@ let fileInput = document.getElementById('file-input');
 fileInput.addEventListener('change', function(event) {
     let file = event.target.files[0];
     uploadFile(file);
+    console.log(111)
+    console.log(222)
+    console.log(333)
+    console.log(444)
 });
