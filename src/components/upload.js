@@ -47,6 +47,8 @@ function uploadFile(file) {
 }
 
 // 选择文件并触发上传
+// 6666
+// 111
 let fileInput = document.getElementById('file-input');
 fileInput.addEventListener('change', function(event) {
     let file = event.target.files[0];
